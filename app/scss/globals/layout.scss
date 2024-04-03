@@ -21,21 +21,48 @@ body {
 	background-color: var(--darker-violet-color);
 }
 
+.header__img__container {
+	position: relative;
+	top: 5rem;
+}
+
+.back {
+	position: relative;
+	left: 3.15rem;
+}
+
 .header__card__front {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	z-index: 5000;
 }
 
 .header__img {
-	max-width: 300px;
-	width: 300px;
+	max-width: 15.789rem;
+}
+
+.front {
+	position: relative;
+	right: 1.05rem;
+	bottom: 3.98rem;
 }
 
 .card__logo {
 	width: 20%;
 	position: absolute;
-	top: 11.95rem;
+	top: 5.95rem;
 	left: 2rem;
+	z-index: 9000;
+}
+
+.card__num-primary {
+	font-size: var(--font-size-card-num);
+	font-weight: var(--font-weight-body);
+	font-family: var(--font-family-body);
+	color: var(--default-color-white);
+	position: absolute;
+	top: 8.2rem;
+	z-index: 7000;
 }
