@@ -57,7 +57,7 @@ body {
 	z-index: 9000;
 }
 
-.card__num-primary {
+.card__num-primary,.card__lower-row,.card__back-code {
 	font-size: var(--font-size-card-num);
 	font-weight: var(--font-weight-body);
 	font-family: var(--font-family-body);
@@ -65,4 +65,22 @@ body {
 	position: absolute;
 	top: 8.2rem;
 	z-index: 7000;
+}
+
+.card__lower-row {
+	display: flex;
+	align-items: center;
+	top: 10.5rem;
+	left: 1.8rem;
+	font-size: var(--font-family-body)/2;
+	text-transform: uppercase;
+}
+
+.card__name {
+	margin-right: 2.65rem;
+}
+
+.card__back-code {
+	top: 2.26rem;
+	left: 14.4rem;
 }

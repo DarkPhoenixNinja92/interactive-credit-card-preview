@@ -13,27 +13,42 @@
 		<header class="header">
 			<div class="header__img__container">
 				<img src="./app/images/bg-card-back.png" alt="" class="header__img back">
+				<p class="card__back-code">000</p>
 				<div class="header__card__front">
 					<img src="./app/images/card-logo.svg" alt="" class="card__logo">
 					<img src="./app/images/bg-card-front.png" alt="" class="header__img front">
 					<p class="card__num-primary">0000 0000 0000 0000</p>
+					<div class="card__lower-row">
+						<p class="card__name">Jane Appleseed</p>
+						<p class="card__exp-date">00/00</p>
+					</div>
+					
 				</div>
 			</div>
 		</header>
 		<main class="main">
+			<form action="" class="card__input-form">
+				<input type="text" class="card__name" id="card-name" name="card-name" placeholder="e.g. Jane Appleseed">
+				<label for="card-name" class="card__name-label">Cardholder Name</label>
 
+				<input type="number" class="card__num" id="card-num" name="card-num" placeholder="e.g. 1234 5678 9123 0000">
+				<label for="card-num" class="card__num-label">Card Number</label>
+
+				<!-- <input type="text" class="card__name" id="card-name" name="card-name">
+				<label for="card-name" class="card__name-label">Cardholder Name</label> -->
+			</form>
 		</main>
 		
-  Jane Appleseed
-  00/00
+  
+  
 
-  000
+  
 
-  Cardholder Name
-  e.g. Jane Appleseed
+  
+  
 
-  Card Number
-  e.g. 1234 5678 9123 0000
+  
+  
 
   Exp. Date (MM/YY)
   MM
