@@ -14,6 +14,7 @@
 
 body {
 	max-width: 320px;
+	padding-bottom: 8rem;
 }
 
 .header {
@@ -83,4 +84,136 @@ body {
 .card__back-code {
 	top: 2.26rem;
 	left: 14.4rem;
+}
+
+.card__input-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 3rem;
+}
+
+.card__form-labels-date {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	bottom: 1rem;
+}
+
+.card__expiry-section,.card__form-labels-date {
+	flex-direction: row;
+}
+
+.card__date-input {
+	width: 25%;
+	margin-right: 0.65rem;
+}
+
+.card__date-cvc {
+	width: 33.33%;
+}
+
+input {
+	border: 1px solid var(--light-gray-violet);
+	border-radius: 5px;
+}
+
+.card__expiry-section {
+	position: relative;
+	left: 0.65rem;
+}
+
+input,label {
+	margin-bottom: 1.5rem;
+}
+
+.card__code-label {
+	margin-right: 2rem;
+	position: relative;
+	top: 0.85rem;
+}
+
+.card__name-label {
+	position: relative;
+	bottom: 35px;
+	left: -3rem;
+}
+
+.cardholder-name {
+	left: -5rem;
+}
+
+.card__expiry-section {
+	position: relative;
+	top: 4rem;
+}
+
+.card__name-label {
+	position: relative;
+	top: 0;
+}
+
+.card__input {
+	width: 18rem;
+	padding: 0.45rem 2rem 0.45rem 2rem;
+}
+
+.card__name {
+	position: relative;
+	left: 1rem;
+}
+
+.button {
+	position: relative;
+	top: 4rem;
+	border: none;
+	font-family: var(--font-family-body);
+	font-weight: var(--font-weight-body);
+	font-size: var(--font-size-card-num);
+	padding: 0.55rem 7rem 0.55rem 7rem;
+	background-color: var(--darker-violet-color);
+	color: var(--default-color-white);
+}
+
+.card__num-label,.card__name-label {
+	position: relative;
+}
+
+.card__name-label,.card__num-label {
+	right: 3rem;
+	top: 0.75rem;
+}
+
+.card__num-label {
+	right: 5.9rem;
+}
+
+label {
+	text-transform: uppercase;
+}
+
+.cardholder-name, .card__num-label {
+	left: -4rem;
+}
+
+.card__num-label {
+	left: -5.2rem;
+}
+
+.completed {
+	display: none;
+}
+
+.completed-show {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: 5rem;
 }
